@@ -19,8 +19,8 @@ const styles = StyleSheet.create({
 
     import React, { useState } from 'react';
     import { SafeAreaView, View, StyleSheet, Text } from 'react-native';
-    import ToDoForm from './ToDoForm';
-    import ToDoList from './ToDoList';
+    import ToDoList from './src/ToDoList';
+    import ToDoForm from './src/ToDoForm';
 
     function App() {
       const [tasks, setTasks] = useState([
